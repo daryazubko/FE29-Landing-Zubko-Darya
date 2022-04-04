@@ -1,0 +1,29 @@
+.card {
+  width: 350px;
+  margin: 0 15px;
+}
+.card-image {
+  border: 1px solid #e72424;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+img {
+  height: 43%;
+}
+.card-title {
+  text-align: center;
+  margin: 30px auto 16px;
+  color: #333333;
+}
+.card-text {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+}
