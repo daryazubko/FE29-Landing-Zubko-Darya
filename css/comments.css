@@ -1,0 +1,75 @@
+.card-comment {
+  width: 300px;
+  margin: 0 15px;
+  position: relative;
+}
+.card-comment_text {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  width: 298px;
+  color: #86878b;
+  padding: 9px 22px 6px 23px;
+  background-color: #e2e2e2;
+  border-radius: 7px;
+  margin-bottom: 22px;
+}
+.card-comment_text::after {
+  content: "";
+  width: 0;
+  height: 0;
+  display: block;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #e2e2e2;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 1px;
+  position: absolute;
+  left: 40px;
+}
+
+.card-comment_author {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card-comment_img {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  overflow: hidden;
+}
+.card-comment_img img {
+  height: 230%;
+  margin: 50px 35px 0px 20px;
+}
+.card-comment_name {
+  display: inline-block;
+  padding-right: 40px;
+}
+.name {
+  display: block;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 700;
+  color: #333333;
+  margin-bottom: 12px;
+}
+
+.position {
+  display: block;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  color: #86878b;
+  text-align: right;
+}

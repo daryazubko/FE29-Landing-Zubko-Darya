@@ -3,6 +3,7 @@
 }
 ul {
   width: 340px;
+  margin: 0 15px;
 }
 .list-type {
   background-color: #333333;
@@ -12,7 +13,7 @@ ul {
   font-size: 20px;
   font-weight: 700;
   font-family: "Open Sans";
-  margin: 0 15px 2px;
+  margin-bottom: 2px;
 }
 .list-price {
   background-color: #333333;
@@ -22,7 +23,7 @@ ul {
   font-size: 35px;
   font-weight: 700;
   font-family: "Raleway";
-  margin: 0 15px 2px;
+  margin-bottom: 2px;
 }
 .list-note {
   background-color: #333333;
@@ -32,7 +33,7 @@ ul {
   font-size: 14px;
   font-weight: 600;
   font-family: "Open Sans";
-  margin: 0 15px 4px;
+  margin-bottom: 4px;
 }
 .list-size {
   background-color: #fff;
@@ -42,5 +43,8 @@ ul {
   font-size: 14px;
   font-weight: 400;
   font-family: "Open Sans";
-  margin: 0 15px 4px;
+  margin-bottom: 4px;
+}
+li:last-child {
+  margin-bottom: 0px;
 }
