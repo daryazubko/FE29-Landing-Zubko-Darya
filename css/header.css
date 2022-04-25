@@ -2,6 +2,13 @@ header {
   padding: 20px 0;
   background-color: #000;
 }
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 -15px;
+  flex-wrap: wrap;
+}
 
 .navigation {
   display: flex;
@@ -38,4 +45,17 @@ a {
 }
 .navigation-item:hover {
   border-bottom: 3px solid #fff;
+}
+.burger {
+  width: 35px;
+  height: 35px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.fa-bars {
+  font-size: 25px;
 }

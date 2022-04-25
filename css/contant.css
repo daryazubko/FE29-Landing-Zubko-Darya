@@ -41,7 +41,7 @@ input {
   margin: 0 15px;
 }
 textarea {
-  width: 478px;
+  max-width: 100%;
   height: 185px;
   outline: none;
   resize: none;
