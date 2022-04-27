@@ -176,4 +176,16 @@ h3 {
   .container {
     width: 100%;
   }
+  .firstscreen-form-title {
+    font-size: 13px;
+  }
+  input,
+  label {
+    font-size: 13px;
+  }
+}
+@media (max-width: 320px) {
+  .container {
+    width: 100%;
+  }
 }

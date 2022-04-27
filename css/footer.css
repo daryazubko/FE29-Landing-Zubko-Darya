@@ -3,10 +3,10 @@ footer {
   background-color: #000000;
 }
 .footer-social-media {
-  width: 317px;
+  max-width: 317px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   margin: 0 auto 18px;

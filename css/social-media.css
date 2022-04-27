@@ -13,7 +13,7 @@
   margin: 0 15px 14px;
 }
 .social-media-text {
-  width: 365px;
+  max-width: 365px;
 }
 
 .social-media-text p {

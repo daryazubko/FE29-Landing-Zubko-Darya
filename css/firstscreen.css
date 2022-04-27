@@ -61,7 +61,7 @@
   font-family: "Open Sans";
 }
 .slogan-firstscreen {
-  width: 250px;
+  max-width: 250px;
   margin-bottom: 39px;
 }
 
